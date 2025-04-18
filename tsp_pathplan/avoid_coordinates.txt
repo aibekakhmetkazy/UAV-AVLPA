@@ -1,0 +1,117 @@
+Image 3:
+  Lakes 1:
+    Latitude: 43.29636080555556
+    Longitude: -85.38397310277777
+  Lakes 2:
+    Latitude: 43.299131780555555
+    Longitude: -85.37644690277777
+  Lakes 3:
+    Latitude: 43.297302530555555
+    Longitude: -85.37591474722221
+
+Image 4:
+  Lakes 1:
+    Latitude: 43.121846000000005
+    Longitude: -85.37177929722222
+  Lakes 2:
+    Latitude: 43.12190022222222
+    Longitude: -85.36280647222222
+
+Image 10:
+  Lakes 1:
+    Latitude: 43.177232544533354
+    Longitude: -85.71595855555556
+  Lakes 2:
+    Latitude: 43.17616613933335
+    Longitude: -85.71595855555556
+
+Image 11:
+  Lakes 1:
+    Latitude: 42.855784
+    Longitude: -85.69506767473999
+  Lakes 2:
+    Latitude: 42.854778249999995
+    Longitude: -85.69470978383278
+  Lakes 3:
+    Latitude: 42.854778249999995
+    Longitude: -85.69453567474277
+
+Image 12:
+  Lakes 1:
+    Latitude: 42.810477219444444
+    Longitude: -85.34747159444444
+  Lakes 2:
+    Latitude: 42.809012619444445
+    Longitude: -85.34333401944444
+
+Image 14:
+  Lakes 1:
+    Latitude: 42.79942361111111
+    Longitude: -85.67297656944446
+  Lakes 2:
+    Latitude: 42.799227780555555
+    Longitude: -85.67032823611112
+  Lakes 3:
+    Latitude: 42.80245560833333
+    Longitude: -85.66497481944444
+
+Image 15:
+  Lakes 1:
+    Latitude: 42.825015472222226
+    Longitude: -85.5942758861111
+  Lakes 2:
+    Latitude: 42.824758550000006
+    Longitude: -85.59424752777777
+
+Image 17:
+  Lakes 1:
+    Latitude: 42.87032055555556
+    Longitude: -85.34863735555555
+  Lakes 2:
+    Latitude: 42.86821266666667
+    Longitude: -85.3484486888889
+  Lakes 3:
+    Latitude: 42.87218444444445
+    Longitude: -85.34835435555556
+
+Image 20:
+  Lakes 1:
+    Latitude: 42.79005105555556
+    Longitude: -85.55251722222222
+  Lakes 2:
+    Latitude: 42.784511430555554
+    Longitude: -85.54661444444444
+
+Image 21:
+  Lakes 1:
+    Latitude: 43.08489388055556
+    Longitude: -85.78956654999999
+  Lakes 2:
+    Latitude: 43.085750072222226
+    Longitude: -85.78745384999999
+  Lakes 3:
+    Latitude: 43.08743548888889
+    Longitude: -85.78363766666666
+  Lakes 4:
+    Latitude: 43.08771189722223
+    Longitude: -85.78317135
+
+Image 23:
+  Lakes 1:
+    Latitude: 42.89234023611111
+    Longitude: -85.53402412499999
+  Lakes 2:
+    Latitude: 42.891792361111115
+    Longitude: -85.53402412499999
+  Lakes 3:
+    Latitude: 42.891339180555555
+    Longitude: -85.53333366666666
+
+Image 25:
+  Lakes 1:
+    Latitude: 42.892724127777775
+    Longitude: -85.31145036666666
+  Lakes 2:
+    Latitude: 42.89163879444445
+    Longitude: -85.30457346666665
+

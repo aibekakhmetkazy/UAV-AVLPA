@@ -1,6 +1,8 @@
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 from transformers import AutoModelForCausalLM, AutoProcessor, GenerationConfig
+import sys
+import os
 from save_animations import animate_bidirectional_path_on_image, animate_path_on_image
 from PIL import Image
 from coordinates_list import coordinates_from_json
@@ -113,7 +115,7 @@ def find_objects(json_input, samples_number):
     for i in range(len(find_objects_json_input["object_types_avoid"])):
         sample_avoid = find_objects_json_input["object_types_avoid"][i]
     
-    for num in range(1, samples_number - 28 + 1):
+    for num in range(1, samples_number + 1):
 
         avoid_pixels = []
         parsed_points_avoid = {}
@@ -155,7 +157,7 @@ def find_objects(json_input, samples_number):
 
                 optimized_coordinates = tsp_optimized_coordinates(parsed_points_fly_around)
 
-                pts, width, height = image_discretization(f'benchmark-UAV-VLPA-nano-30/images/{num}.jpg', discretization_step=5)
+                pts, width, height = image_discretization(f'benchmark-UAV-VLPA-nano-30/images/{num}.jpg', discretization_step=7)
                 fly_around_pixels = coordinates_from_json(optimized_coordinates, width, height)
                 result_coordinates_fly_around = recalculate_coordinates(optimized_coordinates, num, coordinates_dict)
 
@@ -506,6 +508,6 @@ total_computational_time = vlm_model_time + mission_generation_time
 
 # Evaluation time
 print('-------------------------------------------------------------------')
-print('Time to get VLM results: ', vlm_model_time, 'mins')
-print('Time to get Mission Text files: ', mission_generation_time, 'mins')
-print('Total Computational Time: ', total_computational_time, 'mins')
+print('Time to get VLPA results: ', vlm_model_time*60, 's')
+print('Time to get Mission Text files: ', mission_generation_time*60, 's')
+print('Total Computational Time: ', total_computational_time*60, 's')
